@@ -1,0 +1,23 @@
+Algoritmo sin_titulo
+	Definir num Como Entero
+	num <- Aleatorio(0,10)
+	
+	Definir numb Como Entero
+	
+	
+	Mientras intentos>0 Hacer
+		Escribir "ingresa un numero de 1 - 10"
+		Leer numb
+		
+		si num =numb Entonces
+			Escribir "es correcto el numero es" num
+		SiNo
+			Escribir "es incorrecto el numero te quedan" intentos, "intentos"
+		FinSi
+	Fin Mientras
+	si intentos=0 Entonces
+		escribir " ya no te quedan intentos, perdiste"
+	SiNo
+		Escribir "ganaste"
+	FinSi
+FinAlgoritmo
